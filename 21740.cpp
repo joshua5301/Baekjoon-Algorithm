@@ -1,3 +1,5 @@
+#21740 도도의 수학놀이 by joshua5301
+
 #include <iostream>
 #include <string>
 #include <vector>
