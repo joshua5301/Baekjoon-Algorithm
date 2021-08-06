@@ -66,7 +66,7 @@ int main(){
         cin >> arr[i];
     }
     initSeg(arr, seg_tree, 1, 0, num_num - 1);
-    printVec(seg_tree);
+    //printVec(seg_tree);
     
     for(int i = 0; i < update_num + query_num; i++){
         cin >> a >> b >> c;
@@ -77,7 +77,7 @@ int main(){
         else if(a == 2){
             cout << findSeg(seg_tree, 1, 0, num_num - 1, b - 1, c - 1) << '\n';
         }
-        printVec(seg_tree);
+        //printVec(seg_tree);
     }
     return 0;
 }

@@ -1,4 +1,4 @@
-#19537 전투 시뮬레이션 by joshua5301
+//19537 전투 시뮬레이션 by joshua5301
 
 #include <cstdio>
 #include <queue>
